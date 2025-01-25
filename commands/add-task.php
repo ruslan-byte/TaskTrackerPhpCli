@@ -10,7 +10,7 @@ function addTask($taskContent = 'Новая задача')
         array_push($taskList, $newTask);
         setTaskList($taskList);
 
-        return "Task added successfully (ID: $newTask->id)";
+        echo "Task added successfully (ID: $newTask->id)";
     } else {
         echo ('Set the task name!');
     }

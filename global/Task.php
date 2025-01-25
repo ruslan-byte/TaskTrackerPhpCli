@@ -15,10 +15,14 @@ class Task
 
     public function __construct($description)
     {
-        $this->id = 2;
+        $this->setTaskData(2, $description, TaskStatus::TODO, date('d.m.y'), date('d.m.y'));
+    }
+    public function setTaskData($id, $description, TaskStatus $status, $createdAt, $updatedAt)
+    {
+        $this->id = $id;
         $this->description = $description;
-        $this->status = TaskStatus::TODO;
-        $this->createdAt = date('d.m.y');
-        $this->updatedAt = date('d.m.y');
+        $this->status = $status;
+        $this->createdAt = $createdAt;
+        $this->updatedAt = $updatedAt;
     }
 }
