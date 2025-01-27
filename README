@@ -1,0 +1,13 @@
+
+project_url - https://roadmap.sh/projects/task-tracker
+
+php v 8.2.26
+
+'php task-tracker.php add название_задачи' - add a task,
+'php task-tracker.php list' - get a list of tasks
+'php task-tracker.php update новое_название_задачи' - set a new name for the task
+'php task-tracker.php delete ид_задачи' - delete the task 
+'php task-tracker.php mark-in-progress ид_задачи' - set tasks status in-progress
+'php task-tracker.php mark-done ид_задачи' - set tasks status done
+'php task-tracker.php mark-todo ид_задачи' - set tasks status todo
+

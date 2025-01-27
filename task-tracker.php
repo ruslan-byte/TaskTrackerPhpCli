@@ -12,5 +12,5 @@ match ($argv[1] ?? null) {
     'mark-in-progress' => setStatusOnTask($argv[2] ?? null, TaskStatus::IN_PROGRESS),
     'mark-done' => setStatusOnTask($argv[2] ?? null, TaskStatus::DONE),
     'mark-todo' => setStatusOnTask($argv[2] ?? null, TaskStatus::TODO),
-    default => 'Неизвестная команда',
+    default => 'Unknown team',
 };
