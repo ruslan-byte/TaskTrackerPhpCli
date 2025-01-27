@@ -1,6 +1,6 @@
 <?php
-require __DIR__ . '/../global/Task.php';
-require __DIR__ .  '/../global/useTaskStore.php';
+require_once __DIR__ . '/../global/Task.php';
+require_once __DIR__ .  '/../global/useTaskStore.php';
 
 function addTask($taskContent = 'Новая задача')
 {
